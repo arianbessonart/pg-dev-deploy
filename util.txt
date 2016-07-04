@@ -1,0 +1,10 @@
+git tag --sort=-version:refname
+
+git diff tag1 tag2
+
+git diff tag1 tag2 --stat
+
+git show v0.1.10:package.json
+
+git for-each-ref --sort=taggerdate --format '%(refname) %(taggerdate)' refs/tags
+git for-each-ref --sort=taggerdate --format '%(tag)' refs/tags

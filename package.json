@@ -1,0 +1,24 @@
+{
+  "name": "pg-git-diff-tags",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arianbessonart/pg-git-diff-tags.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arianbessonart/pg-git-diff-tags/issues"
+  },
+  "homepage": "https://github.com/arianbessonart/pg-git-diff-tags#readme",
+  "dependencies": {
+    "async": "^1.5.2",
+    "lodash": "^4.13.1",
+    "node-cmd": "^1.1.1"
+  }
+}
